@@ -3,8 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <title>Strict</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- подключение CSS файла Fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Подключение JS файла Fancybox -->
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
 </head>
 <body>
-
+    <header id="header">
+        <h1>
+            <a href="#header">
+                <img src="images/logo.png" alt="logotype" />
+                <span>Strict</span>
+            </a>
+        </h1>
+    </header>
+    <section class="container welcome">
+        <h1>Strict</h1>
+        <p>STRICT is a responsive theme with a a clean and minimal look.</p>
+        <div id="scroller">
+            <a href="#about" class="button">Call to action</a>
+            <a href="#about" class="fa fa-angle-down fa-2x"></a>
+        </div>
+    </section>
+    <section id="about" class="container">
+        <h2>Simple & pure design.</h2>
+        <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+    </section>
+    <section class="container info">
+        <ul class="row">
+            <li class="col-lg-4">
+                <span class="fa fa-mobile bg"></span>
+                <h3>Optimized for all devices</h3>
+                <p>STRICT has been designed to be fully responsive on all devices</p>
+            </li>
+            <li class="col-lg-4">
+                <span class="fa fa-paper-plane bg"></span>
+                <h3>Clean & Minimal Design</h3>
+                <p>This multipurpose theme is especially created to be used for different projects.</p>
+            </li>
+            <li class="col-lg-4">
+                <span class="fa fa-bullhorn bg"></span>
+                <h3>Font Awesome Icon</h3>
+                <p>This multipurpose theme is especially created to be used for different projects.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="container portfolio">
+        <h2>Showcase your work like a pro.</h2>
+        <p> Contact me if you like my work</p>
+        <ul class="row">
+            <li class="col-md-6 col-lg-4">
+                <img src="images/street.png" class="img-responsive img-fluid" alt="Street" />
+                <div class="img-hover">
+                    <a href="images/street-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/street-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/girl.png" class="img-responsive" alt="Girl" />
+                <div class="img-hover">
+                    <a href="images/girl-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/girl-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/good-morning.png" class="img-responsive" alt="Good morning" />
+                <div class="img-hover">
+                    <a href="images/good-morning-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/good-morning-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/cup.png" class="img-responsive" alt="Cup" />
+                <div class="img-hover">
+                    <a href="images/cup-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/cup-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/bike.png" class="img-responsive" alt="Bike" />
+                <div class="img-hover">
+                    <a href="images/bike-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/bike-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/evening.png" class="img-responsive" alt="Evening" />
+                <div class="img-hover">
+                    <a href="images/evening-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/evening-lg.png" class="fa fa-chain"></a>
+                </div>
+            </li>
+        </ul>
+        </section>
+        <section class="container message">
+            <h2>Stay with us</h2>
+            <p>We ensure quailty & support</p>
+            <form>
+                <input type="text" name="Name" id="name" class="form-control" placeholder="Full Name" />
+                <input type="email" name="Email" id="email" class="form-control" placeholder="Email Address" />
+                <textarea id="message" rows="8" class="form-control" placeholder="Message"></textarea>
+                <div class="form-footer">
+                    <label>
+                        <input type="checkbox" name="Subscribe " class="checkbox" />
+                        <span>Subscribe Newsletter</span>
+                    </label>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    <footer id="footer">
+        <p>Copyritht 2014, STRICT</p>
+        <ul>
+            <li>
+                <a href="#footer" class="fa fa-facebook"></a>
+            </li>
+            <li>
+                <a href="#footer" class="fa fa-twitter"></a>
+            </li>
+            <li>
+                <a href="#footer" class="fa fa-google-plus"></a>
+            </li>
+            <li>
+                <a href="#footer" class="fa fa-linkedin"></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/scroll.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a.fancyimage").fancybox();
+        });
+    </script>
 </body>
 </html>

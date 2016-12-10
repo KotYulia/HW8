@@ -1,0 +1,39 @@
+#footer {
+  background-color: #f6f9f9;
+  padding: 0 15%;
+  @include vendor ('display', flex);
+  @include vendor ('justify-content', space-between);
+  p {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999;
+    padding: 3.8rem 0;
+  }
+  ul {
+    margin: 2.5em 0 2.5em auto;
+    li {
+      float: right;
+      margin-right: 0.5rem;
+      a {
+        font-size: 1.5rem;
+        color: #ffffff;
+      }
+      .fa-facebook {
+        padding: 1.3rem 1.6rem;
+        background-color: #15a4fa;
+      }
+      .fa-twitter {
+        padding: 1.3rem;
+        background-color: #15a4fa;
+      }
+      .fa-google-plus {
+        padding: 1.3rem 0.8rem;
+        background-color: #15a4fa;
+      }
+      .fa-linkedin {
+        padding: 1.3rem;
+        background-color: #15a4fa;
+      }
+
+    }
+  }
+}

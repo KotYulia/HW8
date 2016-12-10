@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@mixin vendor($property, $value){
+  -webkit-#{$property}:$value;
+  -moz-#{$property}:$value;
+  -ms-#{$property}:$value;
+  -o-#{$property}:$value;
+  #{$property}:$value;
+}
+
+body {
+  font-size: 10px;
+  ul {
+    list-style: none;
+  }
+}
+a {
+
+}
+@import "header";
+@import "welcome";
+@import "about";
+@import "info";
+@import "portfolio";
+@import "message";
+@import "footer";

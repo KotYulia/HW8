@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+/* line 10, ../sass/style.scss */
+body {
+  font-size: 10px;
+}
+/* line 12, ../sass/style.scss */
+body ul {
+  list-style: none;
+}
+
+/* line 2, ../sass/header.scss */
+#header h1 {
+  margin: 0 0 0 15%;
+  font: 700 3em 'Lato', sans-serif;
+  padding: 3rem 0;
+}
+/* line 6, ../sass/header.scss */
+#header h1 a {
+  text-decoration: none;
+  color: #2d3950;
+  text-transform: uppercase;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+/* line 12, ../sass/header.scss */
+#header h1 a span {
+  margin-left: 1.6rem;
+}
+
+/* line 1, ../sass/welcome.scss */
+.welcome {
+  width: 100%;
+  background: url("../images/background-welcome.png") center/cover no-repeat;
+  text-align: center;
+  padding: 0;
+}
+/* line 6, ../sass/welcome.scss */
+.welcome h1 {
+  font: 700 12em 'Lato', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 27% auto 0;
+  display: inline-block;
+  border-bottom: 2px solid #15a4fa;
+  padding: 0 9.2rem 3.4rem;
+}
+/* line 15, ../sass/welcome.scss */
+.welcome p {
+  font: 400 2em 'Lato', sans-serif;
+  color: #ffffff;
+  margin: 2em auto 3em;
+}
+/* line 20, ../sass/welcome.scss */
+.welcome .button {
+  font: 400 2em 'Lato', sans-serif;
+  color: #ffffff;
+  margin-bottom: 20rem;
+  padding: 2.2rem 3rem;
+  background-color: #15a4fa;
+  border-radius: 1rem;
+}
+/* line 28, ../sass/welcome.scss */
+.welcome .fa {
+  display: block;
+  margin: 17.6rem auto 9rem;
+}
+/* line 32, ../sass/welcome.scss */
+.welcome a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 1, ../sass/about.scss */
+#about {
+  text-align: center;
+  background-color: #f6f9f9;
+  width: 100%;
+  padding: 8em 25em 11em;
+}
+/* line 6, ../sass/about.scss */
+#about h2 {
+  font: 400 4em 'Lato', sans-serif;
+  color: #2d3950;
+  margin: 0 auto 3rem;
+}
+/* line 11, ../sass/about.scss */
+#about p {
+  font: 400 2em/1.6 'Lato', sans-serif;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+/* line 1, ../sass/info.scss */
+.info {
+  width: 100%;
+  padding: 6.5em 26em;
+  text-align: center;
+}
+/* line 5, ../sass/info.scss */
+.info ul {
+  padding: 0;
+}
+/* line 7, ../sass/info.scss */
+.info ul li {
+  margin-top: 3rem;
+}
+/* line 11, ../sass/info.scss */
+.info h3 {
+  font: 400 2.2em 'Lato', sans-serif;
+  color: #2d3950;
+  margin: 3rem auto 2.6rem;
+}
+/* line 16, ../sass/info.scss */
+.info p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999;
+  margin-bottom: 0;
+}
+/* line 21, ../sass/info.scss */
+.info span {
+  text-shadow: 0.8px 0.6px 1px rgba(2, 2, 2, 0.4);
+  color: #ffffff;
+}
+/* line 25, ../sass/info.scss */
+.info .fa-mobile {
+  font-size: 7rem;
+  padding: 1.5rem 3.7rem;
+}
+/* line 29, ../sass/info.scss */
+.info .fa-paper-plane {
+  font-size: 4rem;
+  padding: 3rem 3rem;
+}
+/* line 33, ../sass/info.scss */
+.info .fa-bullhorn {
+  font-size: 4.2rem;
+  padding: 3.2rem 2.9rem;
+}
+
+/* line 38, ../sass/info.scss */
+.bg {
+  background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  background: -o-linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  background: -ms-linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  background: -moz-linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  background: -webkit-linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+}
+
+/* line 1, ../sass/portfolio.scss */
+.portfolio {
+  background-color: #f6f9f9;
+  width: 100%;
+  text-align: center;
+  padding: 8em 23em 11.6em;
+}
+/* line 6, ../sass/portfolio.scss */
+.portfolio h2 {
+  margin: 0 auto;
+  font: 400 4.1em 'Lato', sans-serif;
+  color: #2d3950;
+}
+/* line 11, ../sass/portfolio.scss */
+.portfolio p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #909090;
+  margin: 2.2rem auto 8rem;
+}
+/* line 16, ../sass/portfolio.scss */
+.portfolio ul {
+  padding: 0;
+}
+/* line 18, ../sass/portfolio.scss */
+.portfolio ul li {
+  margin-bottom: 3em;
+}
+/* line 20, ../sass/portfolio.scss */
+.portfolio ul li img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* line 26, ../sass/portfolio.scss */
+.portfolio ul li:hover .img-hover {
+  display: block;
+}
+/* line 30, ../sass/portfolio.scss */
+.portfolio ul .img-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 1.4rem;
+  left: 1.4rem;
+  bottom: 0;
+  background-color: #15a4fa;
+  opacity: 0.9;
+  text-align: center;
+}
+/* line 40, ../sass/portfolio.scss */
+.portfolio ul .img-hover a {
+  margin-top: 30%;
+  margin-right: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1.4rem;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+
+/* line 1, ../sass/message.scss */
+.message {
+  width: 100%;
+  padding: 10% 32% 16%;
+  text-align: center;
+  background: url("../images/backgroud-form.png") center/cover no-repeat;
+}
+/* line 6, ../sass/message.scss */
+.message h2 {
+  font: 400 4.1em 'Lato', sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+}
+/* line 11, ../sass/message.scss */
+.message p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+  margin: 2.1rem auto 5.1rem;
+}
+/* line 16, ../sass/message.scss */
+.message ::-webkit-input-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 20, ../sass/message.scss */
+.message ::-moz-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 24, ../sass/message.scss */
+.message ::-moz-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 28, ../sass/message.scss */
+.message :-ms-input-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 32, ../sass/message.scss */
+.message input {
+  border: 1px solid #999999;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  padding: 2em 0 2em 2em;
+  background: none;
+}
+/* line 39, ../sass/message.scss */
+.message textarea {
+  border: 1px solid #999999;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  padding: 2em 0 0 2em;
+  background: none;
+}
+/* line 46, ../sass/message.scss */
+.message .form-footer {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 49, ../sass/message.scss */
+.message .form-footer button {
+  font: 400 1.8em 'Lato', sans-serif;
+  color: #ffffff;
+  padding: 1.7rem 5rem;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  background: none;
+}
+/* line 57, ../sass/message.scss */
+.message .form-footer label {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #ffffff;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+/* line 62, ../sass/message.scss */
+.message .form-footer label .checkbox {
+  background-color: #999fa9;
+  display: inline-block;
+  margin: 0 1.5rem 0 0;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+/* line 1, ../sass/footer.scss */
+#footer {
+  background-color: #f6f9f9;
+  padding: 0 15%;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 6, ../sass/footer.scss */
+#footer p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999;
+  padding: 3.8rem 0;
+}
+/* line 11, ../sass/footer.scss */
+#footer ul {
+  margin: 2.5em 0 2.5em auto;
+}
+/* line 13, ../sass/footer.scss */
+#footer ul li {
+  float: right;
+  margin-right: 0.5rem;
+}
+/* line 16, ../sass/footer.scss */
+#footer ul li a {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+/* line 20, ../sass/footer.scss */
+#footer ul li .fa-facebook {
+  padding: 1.3rem 1.6rem;
+  background-color: #15a4fa;
+}
+/* line 24, ../sass/footer.scss */
+#footer ul li .fa-twitter {
+  padding: 1.3rem;
+  background-color: #15a4fa;
+}
+/* line 28, ../sass/footer.scss */
+#footer ul li .fa-google-plus {
+  padding: 1.3rem 0.8rem;
+  background-color: #15a4fa;
+}
+/* line 32, ../sass/footer.scss */
+#footer ul li .fa-linkedin {
+  padding: 1.3rem;
+  background-color: #15a4fa;
+}

@@ -1,0 +1,17 @@
+#header {
+  h1 {
+    margin: 0 0 0 15%;
+    font: 700 3em 'Lato', sans-serif;
+    padding: 3rem 0;
+    a {
+      text-decoration: none;
+      color: #2d3950;
+      text-transform: uppercase;
+      @include vendor ('display', flex);
+      @include vendor ('align-items', center);
+      span {
+        margin-left: 1.6rem;
+      }
+    }
+  }
+}
