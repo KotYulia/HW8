@@ -4,6 +4,9 @@
   text-align: center;
   ul {
     padding: 0;
+    li {
+      margin-top: 3rem;
+    }
   }
   h3 {
     font: 400 2.2em 'Lato', sans-serif;
@@ -15,13 +18,20 @@
     color: #999;
     margin-bottom: 0;
   }
+  span {
+    text-shadow: 0.8px 0.6px 1px rgba(2, 2, 2, 0.4);
+    color: #ffffff;
+  }
   .fa-mobile {
-    padding: 2.5rem 3.8rem;
+    font-size: 7rem;
+    padding: 1.5rem 3.7rem;
   }
   .fa-paper-plane {
+    font-size: 4rem;
     padding: 3rem 3rem;
   }
   .fa-bullhorn {
+    font-size: 4.2rem;
     padding: 3.2rem 2.9rem;
   }
 }

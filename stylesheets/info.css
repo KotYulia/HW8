@@ -8,32 +8,44 @@
 .info ul {
   padding: 0;
 }
-/* line 8, ../sass/info.scss */
+/* line 7, ../sass/info.scss */
+.info ul li {
+  margin-top: 3rem;
+}
+/* line 11, ../sass/info.scss */
 .info h3 {
   font: 400 2.2em 'Lato', sans-serif;
   color: #2d3950;
   margin: 3rem auto 2.6rem;
 }
-/* line 13, ../sass/info.scss */
+/* line 16, ../sass/info.scss */
 .info p {
   font: 400 1.5em 'Lato', sans-serif;
   color: #999;
   margin-bottom: 0;
 }
-/* line 18, ../sass/info.scss */
-.info .fa-mobile {
-  padding: 2.5rem 3.8rem;
-}
 /* line 21, ../sass/info.scss */
+.info span {
+  text-shadow: 0.8px 0.6px 1px rgba(2, 2, 2, 0.4);
+  color: #ffffff;
+}
+/* line 25, ../sass/info.scss */
+.info .fa-mobile {
+  font-size: 7rem;
+  padding: 1.5rem 3.7rem;
+}
+/* line 29, ../sass/info.scss */
 .info .fa-paper-plane {
+  font-size: 4rem;
   padding: 3rem 3rem;
 }
-/* line 24, ../sass/info.scss */
+/* line 33, ../sass/info.scss */
 .info .fa-bullhorn {
+  font-size: 4.2rem;
   padding: 3.2rem 2.9rem;
 }
 
-/* line 28, ../sass/info.scss */
+/* line 38, ../sass/info.scss */
 .bg {
   background: linear-gradient(left, #48baff 50%, #5fc3ff 50%);
   background: -o-linear-gradient(left, #48baff 50%, #5fc3ff 50%);

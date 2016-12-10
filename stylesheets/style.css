@@ -108,32 +108,44 @@ body ul {
 .info ul {
   padding: 0;
 }
-/* line 8, ../sass/info.scss */
+/* line 7, ../sass/info.scss */
+.info ul li {
+  margin-top: 3rem;
+}
+/* line 11, ../sass/info.scss */
 .info h3 {
   font: 400 2.2em 'Lato', sans-serif;
   color: #2d3950;
   margin: 3rem auto 2.6rem;
 }
-/* line 13, ../sass/info.scss */
+/* line 16, ../sass/info.scss */
 .info p {
   font: 400 1.5em 'Lato', sans-serif;
   color: #999;
   margin-bottom: 0;
 }
-/* line 18, ../sass/info.scss */
-.info .fa-mobile {
-  padding: 2.5rem 3.8rem;
-}
 /* line 21, ../sass/info.scss */
+.info span {
+  text-shadow: 0.8px 0.6px 1px rgba(2, 2, 2, 0.4);
+  color: #ffffff;
+}
+/* line 25, ../sass/info.scss */
+.info .fa-mobile {
+  font-size: 7rem;
+  padding: 1.5rem 3.7rem;
+}
+/* line 29, ../sass/info.scss */
 .info .fa-paper-plane {
+  font-size: 4rem;
   padding: 3rem 3rem;
 }
-/* line 24, ../sass/info.scss */
+/* line 33, ../sass/info.scss */
 .info .fa-bullhorn {
+  font-size: 4.2rem;
   padding: 3.2rem 2.9rem;
 }
 
-/* line 28, ../sass/info.scss */
+/* line 38, ../sass/info.scss */
 .bg {
   background: linear-gradient(left, #48baff 50%, #5fc3ff 50%);
   background: -o-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
@@ -273,4 +285,60 @@ body ul {
   margin: 0 1.5rem 0 0;
   width: 1.7rem;
   height: 1.7rem;
+}
+
+/* line 1, ../sass/footer.scss */
+#footer {
+  background-color: #f6f9f9;
+  margin: 0 15%;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 6, ../sass/footer.scss */
+#footer p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999;
+  padding: 3.8rem 0;
+}
+/* line 11, ../sass/footer.scss */
+#footer ul {
+  margin: 2.5em 0 2.5em auto;
+}
+/* line 13, ../sass/footer.scss */
+#footer ul li {
+  float: right;
+  margin-right: 0.5rem;
+}
+/* line 16, ../sass/footer.scss */
+#footer ul li a {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+/* line 20, ../sass/footer.scss */
+#footer ul li .fa-facebook {
+  padding: 1.3rem 1.6rem;
+  background-color: #15a4fa;
+}
+/* line 24, ../sass/footer.scss */
+#footer ul li .fa-twitter {
+  padding: 1.3rem;
+  background-color: #15a4fa;
+}
+/* line 28, ../sass/footer.scss */
+#footer ul li .fa-google-plus {
+  padding: 1.3rem 0.8rem;
+  background-color: #15a4fa;
+}
+/* line 32, ../sass/footer.scss */
+#footer ul li .fa-linkedin {
+  padding: 1.3rem;
+  background-color: #15a4fa;
 }
