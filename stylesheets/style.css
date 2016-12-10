@@ -1,4 +1,134 @@
-/* line 1, ../sass/style.scss */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+/* line 9, ../sass/style.scss */
 body {
   font-size: 10px;
+}
+/* line 11, ../sass/style.scss */
+body ul {
+  list-style: none;
+}
+
+/* line 2, ../sass/header.scss */
+#header h1 {
+  margin: 0 0 0 15%;
+  font: 700 3em 'Lato', sans-serif;
+  padding: 3rem 0;
+}
+/* line 6, ../sass/header.scss */
+#header h1 a {
+  text-decoration: none;
+  color: #2d3950;
+  text-transform: uppercase;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+/* line 12, ../sass/header.scss */
+#header h1 a span {
+  margin-left: 1.6rem;
+}
+
+/* line 1, ../sass/welcome.scss */
+.welcome {
+  width: 100%;
+  background: url("../images/background-welcome.png") center/cover no-repeat;
+  text-align: center;
+  padding: 0;
+}
+/* line 6, ../sass/welcome.scss */
+.welcome h1 {
+  font: 700 12em 'Lato', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 27% auto 0;
+  display: inline-block;
+  border-bottom: 2px solid #15a4fa;
+  padding: 0 9.2rem 3.4rem;
+}
+/* line 15, ../sass/welcome.scss */
+.welcome p {
+  font: 400 2em 'Lato', sans-serif;
+  color: #ffffff;
+  margin: 2em auto 3em;
+}
+/* line 20, ../sass/welcome.scss */
+.welcome .button {
+  font: 400 2em 'Lato', sans-serif;
+  color: #ffffff;
+  margin-bottom: 20rem;
+  padding: 2.2rem 3rem;
+  background-color: #15a4fa;
+  border-radius: 1rem;
+}
+/* line 28, ../sass/welcome.scss */
+.welcome .fa {
+  display: block;
+  margin: 17.6rem auto 9rem;
+}
+/* line 32, ../sass/welcome.scss */
+.welcome a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 1, ../sass/about.scss */
+#about {
+  text-align: center;
+  background-color: #f6f9f9;
+  width: 100%;
+  padding: 8em 25em 11em;
+}
+/* line 6, ../sass/about.scss */
+#about h2 {
+  font: 400 4em 'Lato', sans-serif;
+  color: #2d3950;
+  margin: 0 auto 3rem;
+}
+/* line 11, ../sass/about.scss */
+#about p {
+  font: 400 2em/1.6 'Lato', sans-serif;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+/* line 1, ../sass/info.scss */
+.info {
+  width: 100%;
+  padding: 6.5em 26em;
+  text-align: center;
+}
+/* line 5, ../sass/info.scss */
+.info ul {
+  padding: 0;
+}
+/* line 8, ../sass/info.scss */
+.info h3 {
+  font: 400 2.2em 'Lato', sans-serif;
+  color: #2d3950;
+  margin: 3rem auto 2.6rem;
+}
+/* line 13, ../sass/info.scss */
+.info p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999;
+  margin-bottom: 0;
+}
+/* line 18, ../sass/info.scss */
+.info .fa-mobile {
+  padding: 2.5rem 3.5rem;
+}
+/* line 21, ../sass/info.scss */
+.info .fa-paper-plane {
+  padding: 3rem 3rem;
+}
+/* line 24, ../sass/info.scss */
+.info .fa-bullhorn {
+  padding: 3.2rem 2.9rem;
 }

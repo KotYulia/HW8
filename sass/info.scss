@@ -1,0 +1,27 @@
+.info {
+  width: 100%;
+  padding: 6.5em 26em;
+  text-align: center;
+  ul {
+    padding: 0;
+  }
+  h3 {
+    font: 400 2.2em 'Lato', sans-serif;
+    color: #2d3950;
+    margin: 3rem auto 2.6rem;
+  }
+  p {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999;
+    margin-bottom: 0;
+  }
+  .fa-mobile {
+    padding: 2.5rem 3.5rem;
+  }
+  .fa-paper-plane {
+    padding: 3rem 3rem;
+  }
+  .fa-bullhorn {
+    padding: 3.2rem 2.9rem;
+  }
+}
