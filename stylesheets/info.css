@@ -22,7 +22,7 @@
 }
 /* line 18, ../sass/info.scss */
 .info .fa-mobile {
-  padding: 2.5rem 3.5rem;
+  padding: 2.5rem 3.8rem;
 }
 /* line 21, ../sass/info.scss */
 .info .fa-paper-plane {
@@ -31,4 +31,13 @@
 /* line 24, ../sass/info.scss */
 .info .fa-bullhorn {
   padding: 3.2rem 2.9rem;
+}
+
+/* line 28, ../sass/info.scss */
+.bg {
+  background: linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -o-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -ms-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
 }

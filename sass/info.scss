@@ -16,7 +16,7 @@
     margin-bottom: 0;
   }
   .fa-mobile {
-    padding: 2.5rem 3.5rem;
+    padding: 2.5rem 3.8rem;
   }
   .fa-paper-plane {
     padding: 3rem 3rem;
@@ -24,4 +24,11 @@
   .fa-bullhorn {
     padding: 3.2rem 2.9rem;
   }
+}
+.bg {
+  background: linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -o-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -ms-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
 }
