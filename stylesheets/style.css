@@ -173,3 +173,104 @@ body ul {
 .portfolio ul li img {
   margin: 0 auto;
 }
+
+/* line 1, ../sass/message.scss */
+.message {
+  width: 100%;
+  padding: 10% 32% 16%;
+  text-align: center;
+  background: url("../images/backgroud-form.png") center/cover no-repeat;
+}
+/* line 6, ../sass/message.scss */
+.message h2 {
+  font: 400 4.1em 'Lato', sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+}
+/* line 11, ../sass/message.scss */
+.message p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+  margin: 2.1rem auto 5.1rem;
+}
+/* line 16, ../sass/message.scss */
+.message ::-webkit-input-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 20, ../sass/message.scss */
+.message ::-moz-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 24, ../sass/message.scss */
+.message ::-moz-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 28, ../sass/message.scss */
+.message :-ms-input-placeholder {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #999999;
+}
+/* line 32, ../sass/message.scss */
+.message input {
+  border: 1px solid #999999;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  padding: 2em 0 2em 2em;
+  background: none;
+}
+/* line 39, ../sass/message.scss */
+.message textarea {
+  border: 1px solid #999999;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  padding: 2em 0 0 2em;
+  background: none;
+}
+/* line 46, ../sass/message.scss */
+.message .form-footer {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 49, ../sass/message.scss */
+.message .form-footer button {
+  font: 400 1.8em 'Lato', sans-serif;
+  color: #ffffff;
+  padding: 1.7rem 5rem;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  background: none;
+}
+/* line 57, ../sass/message.scss */
+.message .form-footer label {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #ffffff;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+/* line 62, ../sass/message.scss */
+.message .form-footer label .checkbox {
+  background-color: #999fa9;
+  display: inline-block;
+  margin: 0 1.5rem 0 0;
+  width: 1.7rem;
+  height: 1.7rem;
+}

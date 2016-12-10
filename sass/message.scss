@@ -1,0 +1,71 @@
+.message {
+  width: 100%;
+  padding: 10% 32% 16%;
+  text-align: center;
+  background: url("../images/backgroud-form.png") center/cover no-repeat;
+  h2 {
+    font: 400 4.1em 'Lato', sans-serif;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  p {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999999;
+    margin: 2.1rem auto 5.1rem;
+  }
+  ::-webkit-input-placeholder {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999999;
+  }
+  ::-moz-placeholder {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999999;
+  }
+  ::-moz-placeholder {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999999;
+  }
+  :-ms-input-placeholder {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #999999;
+  }
+  input {
+    border: 1px solid #999999;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    padding: 2em 0 2em 2em;
+    background: none;
+  }
+  textarea {
+    border: 1px solid #999999;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    padding: 2em 0 0 2em;
+    background: none;
+  }
+  .form-footer {
+    @include vendor ('display', flex);
+    @include vendor ('justify-content', space-between);
+    button {
+      font: 400 1.8em 'Lato', sans-serif;
+      color: #ffffff;
+      padding: 1.7rem 5rem;
+      border: 1px solid #15a4fa;
+      border-radius: 2px;
+      background: none;
+    }
+    label {
+      font: 400 1.5em 'Lato', sans-serif;
+      color: #ffffff;
+      @include vendor ('display', flex);
+      @include vendor ('align-items', center);
+      .checkbox {
+        background-color: #999fa9;
+        display: inline-block;
+        margin: 0 1.5rem 0 0;
+        width: 1.7rem;
+        height: 1.7rem;
+      }
+    }
+  }
+}
