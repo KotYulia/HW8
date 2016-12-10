@@ -141,3 +141,35 @@ body ul {
   background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
   background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
 }
+
+/* line 1, ../sass/portfolio.scss */
+.portfolio {
+  background-color: #f6f9f9;
+  width: 100%;
+  text-align: center;
+  padding: 8em 23em 11.6em;
+}
+/* line 6, ../sass/portfolio.scss */
+.portfolio h2 {
+  margin: 0 auto;
+  font: 400 4.1em 'Lato', sans-serif;
+  color: #2d3950;
+}
+/* line 11, ../sass/portfolio.scss */
+.portfolio p {
+  font: 400 1.5em 'Lato', sans-serif;
+  color: #909090;
+  margin: 2.2rem auto 8rem;
+}
+/* line 16, ../sass/portfolio.scss */
+.portfolio ul {
+  padding: 0;
+}
+/* line 18, ../sass/portfolio.scss */
+.portfolio ul li {
+  margin-bottom: 3em;
+}
+/* line 20, ../sass/portfolio.scss */
+.portfolio ul li img {
+  margin: 0 auto;
+}

@@ -2,4 +2,24 @@
   background-color: #f6f9f9;
   width: 100%;
   text-align: center;
+  padding: 8em 23em 11.6em;
+  h2 {
+    margin: 0 auto;
+    font: 400 4.1em 'Lato', sans-serif;
+    color: #2d3950;
+  }
+  p {
+    font: 400 1.5em 'Lato', sans-serif;
+    color: #909090;
+    margin: 2.2rem auto 8rem;
+  }
+  ul {
+    padding: 0;
+    li {
+      margin-bottom: 3em;
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
 }
