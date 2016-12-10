@@ -5,7 +5,7 @@ Error: Undefined mixin 'vendor'.
 
 1: #footer {
 2:   background-color: #f6f9f9;
-3:   margin: 0 15%;
+3:   padding: 0 15%;
 4:   @include vendor ('display', flex);
 5:   @include vendor ('justify-content', space-between);
 6:   p {
@@ -69,4 +69,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'vendor'.\A         on line 4 of E:/GeekHub/!!!!!!!/HW8/sass/footer.scss, in `vendor'\A         from line 4 of E:/GeekHub/!!!!!!!/HW8/sass/footer.scss\A \A 1: #footer {\A 2:   background-color: #f6f9f9;\A 3:   margin: 0 15%;\A 4:   @include vendor ('display', flex);\A 5:   @include vendor ('justify-content', space-between);\A 6:   p {\A 7:     font: 400 1.5em 'Lato', sans-serif;\A 8:     color: #999;\A 9:     padding: 3.8rem 0;"; }
+  content: "Error: Undefined mixin 'vendor'.\A         on line 4 of E:/GeekHub/!!!!!!!/HW8/sass/footer.scss, in `vendor'\A         from line 4 of E:/GeekHub/!!!!!!!/HW8/sass/footer.scss\A \A 1: #footer {\A 2:   background-color: #f6f9f9;\A 3:   padding: 0 15%;\A 4:   @include vendor ('display', flex);\A 5:   @include vendor ('justify-content', space-between);\A 6:   p {\A 7:     font: 400 1.5em 'Lato', sans-serif;\A 8:     color: #999;\A 9:     padding: 3.8rem 0;"; }

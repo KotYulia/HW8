@@ -11,6 +11,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- подключение CSS файла Fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Подключение JS файла Fancybox -->
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
 </head>
@@ -58,23 +64,47 @@
         <h2>Showcase your work like a pro.</h2>
         <p> Contact me if you like my work</p>
         <ul class="row">
-            <li class="col-sm-12 col-md-6 col-lg-4">
-                <img src="images/street.png" class="img-responsive" alt="Street" />
+            <li class="col-md-6 col-lg-4">
+                <img src="images/street.png" class="img-responsive img-fluid" alt="Street" />
+                <div class="img-hover">
+                    <a href="images/street-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/street-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
-            <li class="col-sm-12 col-md-6 col-lg-4">
+            <li class="col-md-6 col-lg-4">
                 <img src="images/girl.png" class="img-responsive" alt="Girl" />
+                <div class="img-hover">
+                    <a href="images/girl-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/girl-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
-            <li class="col-sm-12 col-md-6 col-lg-4">
+            <li class="col-md-6 col-lg-4">
                 <img src="images/good-morning.png" class="img-responsive" alt="Good morning" />
+                <div class="img-hover">
+                    <a href="images/good-morning-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/good-morning-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
-            <li class="col-sm-12 col-md-6 col-lg-4">
+            <li class="col-md-6 col-lg-4">
                 <img src="images/cup.png" class="img-responsive" alt="Cup" />
+                <div class="img-hover">
+                    <a href="images/cup-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/cup-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
-            <li class="col-sm-12 col-md-6 col-lg-4">
+            <li class="col-md-6 col-lg-4">
                 <img src="images/bike.png" class="img-responsive" alt="Bike" />
+                <div class="img-hover">
+                    <a href="images/bike-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/bike-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
-            <li class="col-sm-12 col-md-6 col-lg-4">
+            <li class="col-md-6 col-lg-4">
                 <img src="images/evening.png" class="img-responsive" alt="Evening" />
+                <div class="img-hover">
+                    <a href="images/evening-lg.png" class="fa fa-search-plus fancyimage"></a>
+                    <a href="images/evening-lg.png" class="fa fa-chain"></a>
+                </div>
             </li>
         </ul>
         </section>
@@ -98,19 +128,24 @@
         <p>Copyritht 2014, STRICT</p>
         <ul>
             <li>
-                <a href="#footer" class="fa fa-facebook fa-2x"></a>
+                <a href="#footer" class="fa fa-facebook"></a>
             </li>
             <li>
-                <a href="#footer" class="fa fa-twitter fa-2x"></a>
+                <a href="#footer" class="fa fa-twitter"></a>
             </li>
             <li>
-                <a href="#footer" class="fa fa-google-plus fa-2x"></a>
+                <a href="#footer" class="fa fa-google-plus"></a>
             </li>
             <li>
-                <a href="#footer" class="fa fa-linkedin fa-2x"></a>
+                <a href="#footer" class="fa fa-linkedin"></a>
             </li>
         </ul>
     </footer>
     <script src="js/scroll.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a.fancyimage").fancybox();
+        });
+    </script>
 </body>
 </html>

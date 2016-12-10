@@ -1,6 +1,6 @@
 #footer {
   background-color: #f6f9f9;
-  margin: 0 15%;
+  padding: 0 15%;
   @include vendor ('display', flex);
   @include vendor ('justify-content', space-between);
   p {
