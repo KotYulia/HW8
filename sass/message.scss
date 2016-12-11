@@ -1,6 +1,6 @@
 .message {
   width: 100%;
-  padding: 10% 32% 16%;
+  padding: 10% 32% 16%;/*Позиционируется средствами бутстрапа, а не паддингами*/
   text-align: center;
   background: url("../images/backgroud-form.png") center/cover no-repeat;
   h2 {
