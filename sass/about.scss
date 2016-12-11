@@ -1,8 +1,8 @@
 #about {
   text-align: center;
   background-color: #f6f9f9;
-  width: 100%;
-  padding: 8em 25em 11em;
+  width: 100%; /*Если ты используешь класс контейнер на элементе, то зачем ты перебиваешь заданную ширину?*/
+  padding: 8em 25em 11em; /*Там же сетка. Зачем такие огромные паддинги задавать? Оно ж на мобильном и на */
   h2 {
     font: 400 4em 'Lato', sans-serif;
     color: #2d3950;
@@ -10,7 +10,7 @@
   }
   p {
     font: 400 2em/1.6 'Lato', sans-serif;
-    color: #999999;
+    color: #999999;/*999 вместо 999999*/
     margin-bottom: 0;
   }
 }
